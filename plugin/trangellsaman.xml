@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="payment" method="upgrade">
+	<name>Trangell Saman Payment Plugin for JGive</name>
+	<creationDate>Feb 2017</creationDate>
+	<version>0.0.1</version>
+	<author>Trangell</author>
+	<authorEmail>info@trangell.com</authorEmail>
+	<authorUrl>https://www.trangell.com</authorUrl>
+	<copyright>Copyright 2017 Trangell Team.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>پلاگین پرداخت سامان برای جی گیو</description>
+	<files>
+		<filename plugin="trangellsaman">trangellsaman.php</filename>
+		<folder>trangellsaman</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="samanmerchantId" type="text" label="کد مرچند" default="" required=""/>
+				<field name="plugin_name" type="text" default="درگاه سامان" label="نام درگاه" description="" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
